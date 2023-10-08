@@ -7,7 +7,7 @@ screen.setup(width=1.0, height=1.0)
 
 # Define a function to draw a curve
 def curve():
-    for i in range(200):
+    for i in range(20):
         t.right(1)
         t.forward(2)  # Decreased the forward distance for a smoother curve
 
