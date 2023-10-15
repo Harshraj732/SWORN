@@ -3,12 +3,12 @@ import turtle
 # Initialize the turtle and screen
 t = turtle.Turtle()
 screen = turtle.Screen()
-screen.setup(width=1.0, height=1.0)
+screen.setup(width=1.0, height=2.0)
 
 # Define a function to draw a curve
 def curve():
     for i in range(20):
-        t.right(1)
+        t.right(2)
         t.forward(2)  # Decreased the forward distance for a smoother curve
 
     t.fillcolor("black")
@@ -29,7 +29,8 @@ t.end_fill()
 
 # Move to the next position
 t.left(90)
-t.forward(250)
+t.forward(251)
+t.backward(90)
 
 # Draw a brown circle
 t.fillcolor("brown")
