@@ -3,7 +3,7 @@ import turtle
 # Initialize the turtle and screen
 t = turtle.Turtle()
 screen = turtle.Screen()
-screen.setup(width=1.0, height=2.0)
+screen.setup(width=5.0, height=2.0)
 
 # Define a function to draw a curve
 def curve():
@@ -18,7 +18,7 @@ def curve():
 
 # Set initial position and angle
 t.penup()
-t.setpos(100, 0)
+t.setpos(190, 0)
 t.pendown()
 
 # Draw the first circle
@@ -44,7 +44,7 @@ t.begin_fill()
 t.left(90)
 t.forward(100)
 t.left(90)
-t.forward(200)
+t.forward(300)
 t.left(90)
 t.forward(100)
 t.end_fill()
@@ -52,7 +52,7 @@ t.end_fill()
 # Move to the next position
 t.backward(45)
 t.left(90)
-t.forward(250)
+t.forward(350)
 
 # Set pen color and size
 t.color("brown")
